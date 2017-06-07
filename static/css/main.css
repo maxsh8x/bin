@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td, th {
+    padding: 0.6em;
+    border: 1px solid #303030;
+}
+
+table tbody > tr:hover {
+    background-color: #d1c4e9;
+}
+
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+    background-color: #f7d9d9;
+    border-color: #eb6565;
+}
+
+.contact_form ul {
+    width: 500px;
+    list-style-type: none;
+} 
+
+.contact_form li {
+    padding: 0.6em;
+}
+
+.contact_form label {
+    width: 150px;
+    display: inline-block;
+}
+
+.contact_form em {
+    color: #d32f2f
+}
