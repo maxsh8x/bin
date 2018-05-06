@@ -1,0 +1,5 @@
+config.development.json
+config.production.json
+build/
+node_modules/
+yarn-error.log
